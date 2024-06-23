@@ -1,0 +1,11 @@
+.ag-header-cell:not(:hover) .ag-floating-filter-button {
+    opacity: 1 !important;
+  }
+  
+  .ag-floating-filter-button {
+    display: flex !important;
+  }
+  
+  .ag-floating-filter-button button {
+    opacity: 1 !important;
+  }

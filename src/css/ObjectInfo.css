@@ -1,0 +1,33 @@
+/* src/components/ObjectInfo.css */
+.object-info {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .object-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .object-properties {
+    grid-template-columns: 1fr 1fr; /* Adjust as per your layout */
+    gap: 10px;
+  }
+  
+  .property {
+    display: flex;
+    align-items: center;
+  }
+  
+  .property-name {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .property-value {
+    color: #333;
+  }
+  
